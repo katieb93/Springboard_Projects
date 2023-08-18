@@ -1,0 +1,48 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    width: 100%;
+    margin:0%;
+    padding: 0%;
+    line-height: 100px;
+    text-align: center;
+    height: 100px;
+    background: orange;
+    color: white;
+}
+
+h2 {
+    width: 100%;
+    margin:0%;
+    padding: 0%;
+    line-height: 50px;
+    text-align: center;
+    height: 50px;
+    color: black;
+}
+
+main {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+  }
+
+.submit {
+    border: none;
+    color: orange
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    border: none;
+    color: orange;
+}
+
+#task {
+    margin: 0 30px 0 0;
+}
