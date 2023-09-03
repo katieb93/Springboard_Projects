@@ -1,0 +1,82 @@
+:root {
+  --bg-color-1: #eece50;
+  --bg-color-2: #cf5925;
+  --search-color: rgba(255, 255, 255, 0.181);
+  box-sizing: border-box;
+}
+
+html, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(90deg, var(--bg-color-1), var(--bg-color-2));
+}
+
+.search-container {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.suggestions {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+
+#fruit {
+  background-color: var(--search-color);
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  box-shadow: 0 .15rem 0 var(--bg-color-2);
+}
+
+  #fruit:focus {
+    outline: 2.5px solid #FE5A1C;
+  }
+
+#fruit-search::placeholder {
+  color: #7a7773;
+}
+
+li {
+  list-style: none;
+  background-color: var(--search-color);
+  text-align: left;
+  padding: 1rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+ul li:hover {
+  background-color: #da5006;
+}
